@@ -1,0 +1,157 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 18:36 ?        00:00:11 /lib/systemd/systemd --system --deserialize=41 splash
+root           2       0  0 18:36 ?        00:00:00 [kthreadd]
+root           3       2  0 18:36 ?        00:00:00 [rcu_gp]
+root           4       2  0 18:36 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 18:36 ?        00:00:00 [slub_flushwq]
+root           6       2  0 18:36 ?        00:00:00 [netns]
+root           8       2  0 18:36 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 18:36 ?        00:00:02 [kworker/u8:0-events_unbound]
+root          10       2  0 18:36 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 18:36 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          12       2  0 18:36 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          13       2  0 18:36 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 18:36 ?        00:00:01 [rcu_sched]
+root          15       2  0 18:36 ?        00:00:00 [migration/0]
+root          17       2  0 18:36 ?        00:00:00 [cpuhp/0]
+root          18       2  0 18:36 ?        00:00:00 [cpuhp/1]
+root          19       2  0 18:36 ?        00:00:00 [migration/1]
+root          20       2  0 18:36 ?        00:00:00 [ksoftirqd/1]
+root          22       2  0 18:36 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2  0 18:36 ?        00:00:00 [cpuhp/2]
+root          24       2  0 18:36 ?        00:00:00 [migration/2]
+root          25       2  0 18:36 ?        00:00:00 [ksoftirqd/2]
+root          27       2  0 18:36 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          28       2  0 18:36 ?        00:00:00 [cpuhp/3]
+root          29       2  0 18:36 ?        00:00:00 [migration/3]
+root          30       2  0 18:36 ?        00:00:00 [ksoftirqd/3]
+root          32       2  0 18:36 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          34       2  0 18:36 ?        00:00:00 [kdevtmpfs]
+root          35       2  0 18:36 ?        00:00:00 [inet_frag_wq]
+root          36       2  0 18:36 ?        00:00:00 [kauditd]
+root          37       2  0 18:36 ?        00:00:00 [khungtaskd]
+root          39       2  0 18:36 ?        00:00:00 [oom_reaper]
+root          40       2  0 18:36 ?        00:00:00 [writeback]
+root          41       2  0 18:36 ?        00:00:01 [kcompactd0]
+root          42       2  0 18:36 ?        00:00:00 [ksmd]
+root          44       2  0 18:36 ?        00:00:00 [khugepaged]
+root          45       2  0 18:36 ?        00:00:00 [kintegrityd]
+root          46       2  0 18:36 ?        00:00:00 [kblockd]
+root          47       2  0 18:36 ?        00:00:00 [blkcg_punt_bio]
+root          48       2  0 18:36 ?        00:00:00 [tpm_dev_wq]
+root          49       2  0 18:36 ?        00:00:00 [edac-poller]
+root          50       2  0 18:36 ?        00:00:00 [devfreq_wq]
+root          51       2  0 18:36 ?        00:00:00 [watchdogd]
+root          52       2  0 18:36 ?        00:00:00 [kworker/1:1H-kblockd]
+root          53       2  0 18:36 ?        00:00:02 [kswapd0]
+root          60       2  0 18:36 ?        00:00:00 [kthrotld]
+root          62       2  0 18:36 ?        00:00:00 [irq/49-ACPI:Ged]
+root          63       2  0 18:36 ?        00:00:00 [acpi_thermal_pm]
+root          64       2  0 18:36 ?        00:00:00 [xenbus_probe]
+root          65       2  0 18:36 ?        00:00:00 [mld]
+root          66       2  0 18:36 ?        00:00:00 [ipv6_addrconf]
+root          71       2  0 18:36 ?        00:00:00 [kstrp]
+root          76       2  0 18:36 ?        00:00:00 [zswap-shrink]
+root          77       2  0 18:36 ?        00:00:00 [kworker/u9:0]
+root         146       2  0 18:36 ?        00:00:00 [kworker/2:1H-kblockd]
+root         157       2  0 18:36 ?        00:00:00 [kworker/3:1H-kblockd]
+root         164       2  0 18:36 ?        00:00:00 [kworker/0:1H-kblockd]
+root         245       2  0 18:36 ?        00:00:02 [jbd2/vda2-8]
+root         246       2  0 18:36 ?        00:00:00 [ext4-rsv-conver]
+root         264       2  0 18:36 ?        00:00:00 [hwrng]
+root         493       1  0 18:36 ?        00:00:00 dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+root         515       1  0 18:36 ?        00:00:00 /usr/sbin/haveged --Foreground --verbose=1
+root         523       2  0 18:36 ?        00:00:00 [rpciod]
+root         525       2  0 18:36 ?        00:00:00 [xprtiod]
+message+     560       1  0 18:36 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      563       1  0 18:36 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         565       1  0 18:36 ?        00:00:00 /lib/systemd/systemd-logind
+root         575       2  0 18:36 ?        00:00:00 [psimon]
+root         615       1  0 18:36 ?        00:00:00 /usr/sbin/ModemManager
+root         673       1  0 18:36 ?        00:00:00 /usr/sbin/lightdm
+root         724     673  0 18:36 tty7     00:00:18 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         726       1  0 18:36 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         727       1  0 18:36 ?        00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         753       2  0 18:36 ?        00:00:00 [scsi_eh_0]
+root         754       2  0 18:36 ?        00:00:00 [scsi_tmf_0]
+root         755       2  0 18:36 ?        00:00:00 [usb-storage]
+root         756       2  0 18:36 ?        00:00:00 [uas]
+rtkit        804       1  0 18:36 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         881     673  0 18:36 ?        00:00:00 lightdm --session-child 16 25
+praveen+     888       1  0 18:36 ?        00:00:00 /lib/systemd/systemd --user
+praveen+     889     888  0 18:36 ?        00:00:00 (sd-pam)
+root         903       2  0 18:36 ?        00:00:00 [psimon]
+praveen+     906     888  0 18:36 ?        00:00:00 /usr/bin/pipewire
+praveen+     907     888  0 18:36 ?        00:00:00 /usr/bin/pipewire -c filter-chain.conf
+praveen+     908     888  0 18:36 ?        00:00:00 /usr/bin/wireplumber
+praveen+     909     888  0 18:36 ?        00:00:00 /usr/bin/pipewire-pulse
+praveen+     911     888  0 18:36 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+praveen+     912     888  0 18:36 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+praveen+     936     881  0 18:36 ?        00:00:00 xfce4-session
+praveen+     980     936  0 18:36 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+praveen+     991     888  0 18:36 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+praveen+     998     991  0 18:36 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+praveen+    1009     888  0 18:36 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+praveen+    1022     888  0 18:36 ?        00:00:00 /usr/bin/gpg-agent --supervised
+praveen+    1024     936  0 18:36 ?        00:00:04 xfwm4
+praveen+    1028     888  0 18:36 ?        00:00:00 /usr/libexec/gvfsd
+praveen+    1034     888  0 18:36 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+praveen+    1049     936  0 18:36 ?        00:00:00 xfsettingsd
+root        1053       1  0 18:36 ?        00:00:00 /usr/libexec/upowerd
+praveen+    1059     936  0 18:36 ?        00:00:01 xfce4-panel
+praveen+    1064     936  0 18:36 ?        00:00:00 Thunar --daemon
+praveen+    1075     936  0 18:36 ?        00:00:01 xfdesktop
+praveen+    1079    1059  0 18:36 ?        00:00:01 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+praveen+    1088     936  0 18:36 ?        00:00:00 nm-applet
+praveen+    1091     936  0 18:36 ?        00:00:00 xiccd
+praveen+    1093     936  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+praveen+    1105     936  0 18:36 ?        00:00:00 xfce4-power-manager
+colord      1108       1  0 18:36 ?        00:00:00 /usr/libexec/colord
+praveen+    1109     888  0 18:36 ?        00:00:00 /usr/libexec/dconf-service
+praveen+    1124     936  0 18:36 ?        00:00:00 light-locker
+praveen+    1133     936  0 18:36 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+praveen+    1136     936  0 18:36 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+praveen+    1137    1059  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+praveen+    1138     936  0 18:36 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+praveen+    1141    1059  0 18:36 ?        00:00:15 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+praveen+    1143    1059  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+praveen+    1152    1059  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+praveen+    1157    1059  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+praveen+    1189    1059  0 18:36 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2200 16777234 actions Action Buttons Log out, lock or other system actions
+praveen+    1197       1  0 18:36 ?        00:00:00 xcape -e Super_L Control_L Escape
+praveen+    1302     888  0 18:36 ?        00:00:00 /usr/libexec/bluetooth/obexd
+praveen+    1303     888  0 18:36 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1307       1  0 18:36 ?        00:00:00 /usr/libexec/udisks2/udisksd
+praveen+    1317     888  0 18:36 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+praveen+    1322     888  0 18:36 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+praveen+    1328     888  0 18:36 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+praveen+    1333     888  0 18:36 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+praveen+    1347    1028  0 18:36 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+praveen+    1361     888  0 18:36 ?        00:00:00 /usr/libexec/gvfsd-metadata
+praveen+    2019       1  0 18:37 ?        00:00:15 /usr/bin/qterminal
+praveen+    2022    2019  0 18:37 pts/0    00:00:05 /usr/bin/zsh
+root        5821       1  0 18:41 ?        00:00:00 /lib/systemd/systemd-journald
+root        5823       2  0 18:41 ?        00:00:00 [psimon]
+root       13305       1  0 18:43 ?        00:00:00 /usr/sbin/qemu-ga
+root       13309       2  0 18:43 ?        00:00:00 [kworker/3:3-cgroup_destroy]
+systemd+   14991       1  0 18:43 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root       14994       2  0 18:43 ?        00:00:00 [psimon]
+root       15080       1  0 18:43 ?        00:00:00 /lib/systemd/systemd-udevd
+root       15081       2  0 18:43 ?        00:00:00 [kworker/1:0-events]
+root       15083       2  0 18:43 ?        00:00:00 [psimon]
+root       15426       2  0 18:44 ?        00:00:00 [kworker/u8:4-flush-254:0]
+root       26216       1  0 18:44 ?        00:00:00 /usr/sbin/cron -f
+root       27755       1  0 18:44 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       40325       2  0 18:45 ?        00:00:00 [psimon]
+praveen+   54269    1064  0 18:55 ?        00:00:00 thunar-volman --device-added /sys/devices/pci0000:00/0000:00:04.0/usb1/1-4/1-4.1/1-4.1:1.0/host0/target0:0:0/0:0:0:0/block/sr0
+root       64760       2  0 19:16 ?        00:00:00 [kworker/3:1-mm_percpu_wq]
+root       64887       2  0 19:16 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+root       64913       2  0 19:16 ?        00:00:00 [kworker/u8:2-events_unbound]
+root       66007       2  0 19:19 ?        00:00:00 [kworker/2:3-events]
+root       68476       2  0 19:24 ?        00:00:00 [kworker/0:0-events]
+root       71261       2  0 19:29 ?        00:00:00 [kworker/0:2-events]
+root       73505       2  0 19:33 ?        00:00:00 [kworker/1:2]
+root       74257       2  0 19:34 ?        00:00:00 [kworker/0:1-mm_percpu_wq]
+root       76374       2  0 19:39 ?        00:00:00 [kworker/3:0]
+root       76679       2  0 19:39 ?        00:00:00 [kworker/0:3]
+praveen+   78982    2022  0 19:44 pts/0    00:00:00 ps -ef
