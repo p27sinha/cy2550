@@ -1,3 +1,4 @@
 Level 0 key: ED25519 key fingerprint is SHA256:C2ihUBV7ihnV1wUXRb4RrEcLfXC5CXlhmAAM/urerLY.
 Password for level 1: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 Password for level 2: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+Password for level 3: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
